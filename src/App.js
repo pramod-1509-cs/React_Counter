@@ -16,7 +16,7 @@ function App() {
     }
 
     const wordCount = inputValue.split(/\s+/).filter(Boolean).length;
-    const charCount = inputValue.length;
+    const charCount = inputValue.length-1;
 
     document.getElementById(
       "word-counter"
